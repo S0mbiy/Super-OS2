@@ -20,7 +20,7 @@ Aprendi como utilizar la herramienta make para compilar e inicializar el sistema
 Aprendi que para cada computadora se tiene que compilar de una forma diferente.
 Aprendi que el kernel es un conjunto de librerias(biblia) y que el shell es una lista de comando disponibles para el usuario y que cada uno cuenta con un directorio.
 
-##Commit
+## Commit
 
 https://github.com/S0mbiy/Super-OS2/commit/f7437f61663348b8a853b9b3cc6517f8e0aaed26
 
