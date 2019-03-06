@@ -32,4 +32,8 @@ git
 
 # Que aprendi
 
+Aprendi como se inicializa el proceso init y como este inicializan otros procesos como el sh.
+Tambien aprendi que es un proceso y de que se compone así como los estados de un proceso.
+
 # URL del commit
+https://github.com/S0mbiy/Super-OS2/commit/cb543f67ea77c68bf51cb2ca9b28cff0f55b3ab4
