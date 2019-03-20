@@ -31,3 +31,4 @@ Aprendi como se inicializa el proceso init y como este inicializan otros proceso
 https://github.com/S0mbiy/Super-OS2/commit/556c4cc6e885f1417110178799a1d2a9919c2e08
 
 ## Como se relaciona con los conceptos anteriores
+Esto se relaciona con como maneja un systema operativo los procesos y conseguir mas recursos en un programa.
