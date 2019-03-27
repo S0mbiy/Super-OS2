@@ -29,6 +29,7 @@ Aprendi como se inicializa el proceso init y como este inicializan otros proceso
 
 ## URL del commit
 https://github.com/S0mbiy/Super-OS2/commit/556c4cc6e885f1417110178799a1d2a9919c2e08
+https://github.com/S0mbiy/Super-OS2/commit/52bc4b4ed2797f79af878e91aa96fc7b68cecc98
 
 ## Como se relaciona con los conceptos anteriores
 Esto se relaciona con como maneja un systema operativo los procesos y conseguir mas recursos en un programa.
