@@ -1,5 +1,6 @@
 ## Objetivo
-Modificar el programa sh.c para ejecutar al comando anterior
+Modifica el kernel de xv6 para que imprima cada vez que una llamada a sistema se emplee se imprima una línea con el nombre de la llamada a sistema y su número.
+Agregar otra llamada a sistema (date) a xv6 que consulte el reloj de la computadora y devuelva el tiempo en formato UTC.
 
 ## Herraminetas
 git
