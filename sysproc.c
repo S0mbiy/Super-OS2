@@ -102,4 +102,10 @@ int sys_reboot(void)
 	outb(0x64,0xfe);
 	return 0;
 }
-
+// time
+int sys_date(void){
+struct rtcdate r;
+cmostime(&r);
+cprintf("%d:%d:%d %d/%d/%d\n", r.hour, r.minute, r.second, r.day, r.month, r.year); 
+return 0;
+}
