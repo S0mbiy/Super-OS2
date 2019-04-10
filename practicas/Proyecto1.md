@@ -1,5 +1,6 @@
 ## Objetivo
-Modificar el programa sh.c para ejecutar al comando anterior
+Modifica el kernel de xv6 para que imprima cada vez que una llamada a sistema se emplee se imprima una línea con el nombre de la llamada a sistema y su número.
+Agregar otra llamada a sistema (date) a xv6 que consulte el reloj de la computadora y devuelva el tiempo en formato UTC.
 
 ## Herraminetas
 git
@@ -7,19 +8,19 @@ make
 gcc
 
 ## Conceptos
-1) Como se crean nuevos procesos
-+ Un programa padre (sh.c) ejecuta la llamada a sistema fork
-+ La llamada a sistema fork clona al proceso padre
-+ El proceso hijo manda a llamar a exec para ejecutar otro codigo
+1) Como se crean nuevos programas
++ creas una llamada a systema
++ creas un archivo que mande a llamar la llamada a sistema
++ creas un commando para el usuario que mande a llamar al archivo
 
 ## Que aprendi?
 When it starts it calls  
 
-+ sys_exec -> -2146413648
-+ sys_open -> -2146414416
-+ sys_mknod -> -2146413968
-+ sys_open -> -2146414416
-+ sys_dup -> -2146415744
++ sys_exec -> -2146413648 : carga el codigo del init 
++ sys_open -> -2146414416 : abre el codigo
++ sys_mknod -> -2146413968 : crea un archivo especial para el equipo
++ sys_open -> -2146414416 : abre el archivo especial
++ sys_dup -> -2146415744 : crea un alias para el archivo especial
 + sys_dup -> -2146415744
 
 And for each printed char it calls the system call
@@ -37,10 +38,9 @@ Each enter in the sh calls the following
 + sys_write -> -2146415536
 + sys_read -> -2146415648
 
-
+Aprendi a trabajar con estructuras y como repaso vi como crear llamadas a sistema y programas y como estos dos interactuan entre si.
 ## Url del commit:
-https://github.com/S0mbiy/Super-OS2/commit/2e07b3a9ee9771ee325f00f12d9878d161f8d552
+https://github.com/S0mbiy/Super-OS2/commit/aa63dbd6b771f92bee5dbbc52a33c76071db8b12
 
 ## Como se relaciona con los conceptos anteriores?
-Aqui se hacen uso de dos llamadas a sistema, fork y exec y tienen que ser llamadas a sistema porque yo programa no puedo 
-acceder a memoria para el fork ni a disko duro para el exec.
+Se repaso lo visto en el semestre de como se crean llamadas a systema y programas del sistema operativo asi como se repaso el uso de las llamadas a sistema.
