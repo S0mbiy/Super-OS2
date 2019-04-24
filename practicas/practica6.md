@@ -10,9 +10,9 @@ git
 # Conceptos
 
 + Hilos:
- +      Proceso ligero
- +  solo tiene un stack y el codigo y el heap lo comparten con el proceso principal.
- +  si el proceso principal muere los hilos mueren
+-+ Proceso ligero
++ solo tiene un stack y el codigo y el heap lo comparten con el proceso principal.
++ si el proceso principal muere los hilos mueren
 
 + Lock:
  + Mecanismo de sincronizacion
