@@ -35,4 +35,8 @@ git
 
 # URL del commit
 
+https://github.com/S0mbiy/Super-OS2/commit/6ccaea8c33605a85ffbcde668cf63ed983959a12
+
 # Qué Aprendí?
+
+Como resolver el problema de los filososfos comenzales para evitar los deadlock utilizando semaforos
