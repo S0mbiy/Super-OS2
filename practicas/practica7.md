@@ -18,5 +18,9 @@ git
 
 # URL del commit
 
+https://github.com/S0mbiy/Super-OS2/commit/35ad93b1a31046218d527b832bfa2f807ecaa6f7
 
 # Qué Aprendí?
+
+La extension es opcional y puede no coincidir con el contenido
+Un directorio es un tipo especial de archivo que contiene el nombre de otros archivos y sus referencias 
