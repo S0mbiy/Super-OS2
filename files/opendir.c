@@ -9,7 +9,7 @@ int main(int argc, char **argv){
 	struct dirent *pDirent;
 	DIR *pDir;
 	if(argc <2){
-		printf("Needs directory");
+		printf("Usage: ./opendir <dirname>\n");
 		return 1;
 	}
 	pDir = opendir(argv[1]);
