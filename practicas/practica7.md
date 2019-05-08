@@ -24,3 +24,5 @@ https://github.com/S0mbiy/Super-OS2/commit/35ad93b1a31046218d527b832bfa2f807ecaa
 
 La extension es opcional y puede no coincidir con el contenido
 Un directorio es un tipo especial de archivo que contiene el nombre de otros archivos y sus referencias 
+Chmod se usa para cambiar permisos y si agregas un 4 al inicio puedes darle los permisos al usuario que lo ejecute, del usuario que creo el archivo
+Se puede usar un echo $? para imprimir el valor de retorno de ultimo programa ejecutado
